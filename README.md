@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+<div align="center" id="top"> 
+  <img src="./src/assets/socialfuel.png" alt="Social Fuel" width=400 />
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Social Fuel</h1>
+<p align="center">Reimagining Social Media, step by step</p>
 
-## Available Scripts
+## 📌 About
 
-In the project directory, you can run:
+- A social media platform aimed to capture the essence of all popular, existing social media platforms 👑
+- UI Design is centered around Pinterest. 
+- With time, the best features from Snapchat, Instagram, TikTok, Pinterest will be added ⌚
 
-### `npm start`
+## 🎯 Purpose of the Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-  Designed with the initial purpose of learning all the important CS development topics. I figured that the best way to learn React and backend tech would be to implement already existing (and popular) features from existing social media giants. This way, I have a blueprint of what I want to achieve 💪🏻
+-  Now that I know my way around said tech-stack, future roadmap would be to slowly integrate other popular features (with a twist) + my own ideas bit-by-bit. That's what this project is for 🛣️
+-  **Not a commercial product...yet**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+### 💻 Existing Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Google Secure Authentication 🔒
+- Category-wise split 📫
+- User Feed with infinite scroll 🤳🏻
+- Ability to add both posts and comments. Creator can delete their own posts. Comments cannot be deleted by anyone. 📸
+- Search functionality for Title and Description 🔎
+- Download posts 📩
+- Save posts into profile as pins 🏦
+- "More like this" section shows similar images for more user engagement 📈
 
-### `npm run build`
+### 🤖 Future Scope / TODO 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Convert entire codebase to **Typescript**
+- "Enter as Guest" feature -> user cannot post/comment 
+- More attractive Login Page (add textual headers)
+- **Dark Mode**
+- Add Friends feature. 
+- Enable messaging, video calls between friends. 
+- Ability to add multiple slides of content in 1 post
+- **Do Testing 🤦🏻‍♂️**
+- Add Tooltips, Toasts, Alerts as necessary
+- Enable Video Uploading 
+- **Add CI/CD Pipelines**
+- Add date into schema for Posts and Commments
+- Add like function, counter for Posts and Comments
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔍 Known Bugs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Google Login Fails (rarely). Temporary remedy -> Clear LocalStorage
+- Profile redirects from Category's Posts or Comments fails [incorrect URL]
+- Comment box user image shows post creator's photo instead of commenter's [change src]
 
-### `npm run eject`
+Created with 💖 by Hariharan
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="#top">Back to top</a>
