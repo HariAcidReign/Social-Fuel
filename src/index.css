@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* i'm adding some default styles here */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* i'm going to add a custom scrollbar so default isn't needed */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
